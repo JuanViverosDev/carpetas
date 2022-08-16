@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="277.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerUI.FXMLDocumentController">
+  <children>
+    <Button fx:id="button" layoutX="35.0" layoutY="229.0" onAction="#handleButtonAction" text="Add" />
+    <Label fx:id="label" contentDisplay="CENTER" layoutX="126.0" layoutY="119.0" minHeight="16.0" minWidth="69.0" text="" />
+      <Canvas fx:id="idCanvas" height="200.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#getCoords" width="293.0" />
+      <TextArea fx:id="textArea" layoutX="320.0" layoutY="11.0" prefHeight="208.0" prefWidth="200.0" />
+      <Button fx:id="show" layoutX="89.0" layoutY="229.0" mnemonicParsing="false" onAction="#showAction" text="show" />
+      <Button fx:id="showSort" layoutX="151.0" layoutY="229.0" mnemonicParsing="false" onAction="#sortAction" text="sort" />
+  </children>
+</AnchorPane>

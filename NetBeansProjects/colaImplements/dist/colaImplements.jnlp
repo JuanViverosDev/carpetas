@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="colaImplements.jnlp">
+  <information>
+    <title>colaImplements</title>
+    <vendor>juan_jose.viveros</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="colaImplements.jar" size="3863" download="eager" />
+    <jar href="lib/Cola.jar" size="9172" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="colaImplements" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="vista.JavaImplements"  name="colaImplements" />
+  <update check="always"/>
+</jnlp>

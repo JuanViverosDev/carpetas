@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="339.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerUI.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <WebView fx:id="webView" layoutX="189.0" layoutY="20.0" prefHeight="294.0" prefWidth="291.0" />
+      <Button fx:id="add" layoutX="41.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleAdd" text="Add" />
+      <TextField fx:id="name" layoutX="21.0" layoutY="28.0" />
+      <Button fx:id="show" layoutX="41.0" layoutY="266.0" mnemonicParsing="false" onAction="#handleShow" text="Show" />
+      <TextField fx:id="cantidad" layoutX="21.0" layoutY="62.0" />
+      <TextField fx:id="precio" layoutX="21.0" layoutY="104.0" />
+      <Button fx:id="remove" layoutX="41.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleRemove" text="remove" />
+    </children>
+</AnchorPane>
